@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="bg-gray-800 p-4">
       <div className="container mx-auto flex justify-between">
-        <Link to="/" className="text-white text-xl font-bold ">Byte Blog</Link>
+        <Link to="/" className="text-white text-xl font-bold ">Blog Sphere</Link>
         
         <div>
           {user ? (
